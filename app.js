@@ -1,29 +1,29 @@
-console.log(__dirname);
-console.log(__filename);
+// //normal function statement
+function callFunction(fun){
+    fun();
+}
 
 
-console.log("hey ninjas")
-var time = 0;
+var sayBye = function(){
+    console.log('bye')
+    
+ }
+ 
+ 
+callFunction(sayBye);
+// function sayHi(){
+//     console.log('hi')
+    
+    
+// }
 
-setInterval(function(){
-    time +=2 
-    console.log(time + 'second have passed ')
-},2000);
+// sayHi(); 
 
+// // function expression 
 
+// var sayBye = function(){
+//     console.log('bye')
+    
+// }
 
-
-
-
-
-
-
-
-// var fs = require('fs');
-
-// var file = fs.readFile('input.txt','utf8',function(err,data){
-//     fs.writeFile('writeme.txt',data);
-//     console.log(data);
-// });
-
-// console.log('This is an instruction outside the sync file system.');
+// sayBye(); 
